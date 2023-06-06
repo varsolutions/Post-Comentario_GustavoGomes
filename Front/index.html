@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Pots e Comentários</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="comentario" id="Comentario">
+            <div class="cd">
+
+                <div class="editando">
+                    <input class="InputComentario" type="text" id="Username" placeholder="Nome de Usuario">
+                    <div class="editandoComentario">
+                        <textarea name="" id="comentario" placeholder="Digite seu comentario"
+                            cols="107" rows="10"></textarea>
+                       
+                    </div>
+                   <div class="ContadorCaracter"><span class="caracter" id="caracter">0</span> <p class="max">/2200</p></div>
+                </div>
+                <div class="postar">
+                    <button onclick="publicar()">Publicar</button>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+       
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>

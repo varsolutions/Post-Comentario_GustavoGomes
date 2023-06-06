@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    
+    margin-top: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    
+
+}
+
+.InputComentario {
+    border: none;
+    border-bottom: 1px solid #5352524a;
+    margin-bottom: 30px;
+   
+
+}
+.editando{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #53525230;
+    border-radius: 10px;
+    
+    margin-bottom: 30px;
+}
+
+.editandoComentario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.comentario div input {
+    width: 135px;
+    height: 22px
+}
+
+
+.comentario input::placeholder {
+    font-size: 16px;
+
+}
+
+.comentario div input:hover {
+   cursor: pointer;
+}
+
+.comentario div label:hover {
+    cursor: pointer;
+}
+
+.postar button {
+    background-color: #1f1bffcb;
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.postar {
+    display: flex;
+    justify-content: center;
+}
+
+.postar button:hover {
+    cursor: pointer;
+    background-color: #1f1bffe4;
+}
+
+.postagens {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 800px;
+    margin-bottom: 35px;
+    border: 1px solid #d9d9d976;
+    border-radius: 27px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.193);
+    padding: 20px;
+
+}
+.editandoPubli {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-bottom: 35px;
+    border: 1px solid #000000e9;
+    border-radius: 2px;
+    padding: 20px;
+
+}
+
+textarea{
+    max-width: 800px;
+    min-width: 100px;
+    max-height: 350px;
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #5352523d;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+}
+
+.informacao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+
+}
+
+.date, .name{
+    color: #a7a7a7;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContadorCaracter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.caracter{
+    color: #797979de;
+}
